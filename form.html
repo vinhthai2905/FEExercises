@@ -1,3 +1,49 @@
-<form action="index.html">
-    
-</form>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="username">testing</label>
+        <input type="text" id="username"> <br>
+
+        <label for="birthday">Your birthday:</label>
+        <input type="date" id="birthday"> <br>
+        
+        <label class="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="0" max="99" value="1"> <br>
+
+        <label for="radioMr">Mr.</label>
+        <input type="radio" id="radioMr" value="Mr." name="title"> 
+
+        <label for="radioMs">Ms.</label>
+        <input type="radio" id="radioMs" value="Ms." name="title"> <br>
+
+        <label for="payment">Payment:</label>
+        <select id="payment">
+
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="giftcard">Gift Card</option>
+
+        </select><br>
+
+        <label for="subscribe">Subscribe:</label>
+        <input type="checkbox" id="subscribe"> <br>
+        
+        <label for="comment">Comment:</label>
+        <textarea id="comment" rows="3" cols="34" ></textarea>
+
+        <input type="text">
+        
+        <input type="reset" >
+        <input type="submit">
+    </form>
+</body>
+
+</html>
