@@ -1,0 +1,13 @@
+body{
+    border: 3px solid, red;
+    display: flow-root
+}
+#itachiimg{
+    float: left;
+    margin-right: 50px;
+}
+
+#oggy{
+    float: right;
+    margin-left: 10px;
+}
