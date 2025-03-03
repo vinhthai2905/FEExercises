@@ -1,0 +1,30 @@
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    font-style: bold;
+    color: white;
+}
+
+span{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: none;
+    visibility: hidden;
+}
+
+#span1{
+    background-color: black;
+    display: inline;
+}
+
+#div2{
+    background-color: aqua;
+    display: block;
+}
+
+#div1{
+    float: left;
+}
