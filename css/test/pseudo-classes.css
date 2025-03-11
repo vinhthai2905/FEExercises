@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+}
+
+body{
+  background: #1d1f21;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-size: 1.75em;
+  color: #ede7f6;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.button{
+  background: #553285;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 4px;
+  color: #ede7f6
+}
+
+.button:hover {
+  background: #7B52AB;
+  cursor: pointer;
+}
+
+.button:active {
+  background: #9768D1;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
