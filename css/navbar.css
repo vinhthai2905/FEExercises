@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+.nav-bar > ul{
+    list-style-type: none;
+    background-color: grey;
+    padding: 0px;
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+
+.nav-bar > ul > li {
+    display: inline-block;
+}
+
+.nav-bar{
+    margin-inline: 20%;
+    text-align: center;
+}
